@@ -31,8 +31,8 @@ const ITServices = () => {
     },
     {
       Icon: Shield,
-      title: 'Cybersecurity',
-      description: 'Comprehensive security solutions to protect your digital assets.'
+      title: 'IT Support & Maintenance',
+      description: '24/7 helpdesk and troubleshooting with Regular system updates and monitoring'
     }
   ];
 
@@ -40,9 +40,9 @@ const ITServices = () => {
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">We Make Awesome IT Services</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Expertise</h2>
           <p className="text-lg text-gray-600">
-            Delivering innovative technology solutions to help businesses thrive in the digital age
+            We specialize in providing tailored IT services and consultation that drive business success
           </p>
         </div>
 
@@ -52,11 +52,11 @@ const ITServices = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors">
             Explore Our Services
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

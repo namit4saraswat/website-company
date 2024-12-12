@@ -49,11 +49,11 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700">
             View All Projects
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

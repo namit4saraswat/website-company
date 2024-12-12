@@ -6,17 +6,17 @@ const Hero = () => {
   const stats = [
     {
       icon: <Users className="h-8 w-8 mx-auto text-blue-600" />,
-      value: '10K+',
-      label: 'Students'
+      value: '20+',
+      label: 'Engineers'
     },
     {
       icon: <BookOpen className="h-8 w-8 mx-auto text-blue-600" />,
-      value: '50+',
-      label: 'Courses'
+      value: '10+',
+      label: 'Technologies'
     },
     {
       icon: <Trophy className="h-8 w-8 mx-auto text-blue-600" />,
-      value: '95%',
+      value: '100%',
       label: 'Success Rate'
     }
   ];
@@ -52,7 +52,8 @@ const Hero = () => {
               alt="Students learning"
               className="rounded-lg shadow-xl"
             />
-            <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
+            {/* removed the trophy */}
+            {/* <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
               <div className="flex items-center space-x-4">
                 <div className="bg-blue-100 p-3 rounded-full">
                   <Trophy className="h-6 w-6 text-blue-600" />
@@ -62,7 +63,7 @@ const Hero = () => {
                   <div className="text-sm text-gray-600">Industry recognized</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

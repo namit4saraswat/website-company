@@ -4,10 +4,10 @@ import SocialIcon from './ui/SocialIcon';
 
 const Footer = () => {
   const quickLinks = [
-    { name: 'About Us', href: '#' },
-    { name: 'Courses', href: '#' },
-    { name: 'Projects', href: '#' },
-    { name: 'Blog', href: '#' },
+    { name: 'Services', href: '#' },
+    { name: 'Technologies', href: '#' },
+    { name: 'About', href: '#' },
+    { name: 'Our Projects', href: '#' },
     { name: 'Contact', href: '#' },
   ];
 
@@ -20,9 +20,9 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { Icon: Mail, text: 'contact@codeaspire.com' },
-    { Icon: Phone, text: '+1 (555) 123-4567' },
-    { Icon: MapPin, text: '123 Tech Street, Silicon Valley, CA' },
+    { Icon: Mail, text: 'contact@dataworks.in' },
+    { Icon: Phone, text: '+91-8115097891' },
+    { Icon: MapPin, text: 'Varanasi' },
   ];
 
   return (
@@ -33,10 +33,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <Code2 className="h-8 w-8 text-blue-500" />
-              <span className="ml-2 text-xl font-bold text-white">CodeAspire</span>
+              <span className="ml-2 text-xl font-bold text-white">DataWorks</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Empowering the next generation of developers with cutting-edge education and practical skills.
+            Transform your vision into reality with our expert IT services and consultation.
             </p>
             <div className="flex space-x-4">
               <SocialIcon Icon={Facebook} href="#" />
@@ -62,7 +62,7 @@ const Footer = () => {
 
           {/* Popular Courses */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-6">Popular Courses</h3>
+            <h3 className="text-lg font-semibold text-white mb-6">Our Expertise</h3>
             <ul className="space-y-3">
               {courses.map((course, index) => (
                 <li key={index}>
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} CodeAspire. All rights reserved.
+              © {new Date().getFullYear()} DataWorks. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-blue-500 text-sm">
