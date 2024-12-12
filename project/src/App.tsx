@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import PopularCourses from './components/PopularCourses';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import TechnologySection from './components/Technology';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <ITServices />
       <Features />
+      <TechnologySection />
       {/* <CompanyWelcome /> */}
       <Projects />
       {/* <PopularCourses /> */}

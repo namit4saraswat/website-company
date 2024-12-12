@@ -14,13 +14,15 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600">Services</a>
-            <a href="#courses" className="text-gray-700 hover:text-blue-600">Technologies</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600">Our Projects</a>
+            <a href="#our-expertise" className="text-gray-700 hover:text-blue-600">Services</a>
+            <a href="#technologies" className="text-gray-700 hover:text-blue-600">Technologies</a>
+            <a href="#courses" className="text-gray-700 hover:text-blue-600">About</a>
+            <a href="#projects" className="text-gray-700 hover:text-blue-600">Our Projects</a>
+            <a href="#footer">
             <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">
               Contact Us
             </button>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">
