@@ -26,7 +26,7 @@ const CompanyWelcome = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Welcome To Our Company</h2>
           <p className="text-lg text-gray-600">
-            At DataWorks, we're passionate about transforming aspiring developers into industry professionals through comprehensive education and practical experience.
+            At NamadiSoft, we're passionate about transforming aspiring developers into industry professionals through comprehensive education and practical experience.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const CompanyWelcome = () => {
             <div className="p-8 lg:p-12">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
               <p className="text-gray-600 mb-6">
-                Founded in 2020, DataWorks emerged from a simple vision: making quality programming education accessible to everyone. What started as a small community has grown into a global platform, helping thousands of students achieve their dreams.
+                We started NamadiSoft with a vision to empower individuals with the skills they need to succeed in the rapidly evolving world of technology.
               </p>
               <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">
                 Learn More About Us

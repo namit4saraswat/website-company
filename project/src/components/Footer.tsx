@@ -20,7 +20,7 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { Icon: Mail, text: 'contact@dataworks.in' },
+    { Icon: Mail, text: 'contact@namadisoft.com' },
     { Icon: Phone, text: '+91-8115097891' },
     { Icon: MapPin, text: 'Varanasi' },
   ];
@@ -33,7 +33,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <Code2 className="h-8 w-8 text-blue-500" />
-              <span className="ml-2 text-xl font-bold text-white">DataWorks</span>
+              <span className="ml-2 text-xl font-bold text-white">NamadiSoft</span>
             </div>
             <p className="text-gray-400 mb-6">
             Transform your vision into reality with our expert IT services and consultation.
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} DataWorks. All rights reserved.
+              © {new Date().getFullYear()} NamadiSoft. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-blue-500 text-sm">
