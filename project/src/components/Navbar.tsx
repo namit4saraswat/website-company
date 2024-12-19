@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
-
+import name from '../components/ui/name-bg.png'; 
+import logo from '../components/ui/Only Logo nobg.png'; 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -9,8 +10,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Code2 className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">NamadiSoft</span>
+            <img src={logo} alt="NamadiSoft Logo" className="h-8 w-8 text-cyan-700" />
+            <img src={name} alt="NamadiSoft Logo" className="ml-0 h-8 w-40" />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

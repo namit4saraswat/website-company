@@ -1,6 +1,7 @@
 import React from 'react';
 import { Code2, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import SocialIcon from './ui/SocialIcon';
+import logo from '../components/ui/Only Logo nobg.png'; 
 
 const Footer = () => {
   const quickLinks = [
@@ -21,7 +22,7 @@ const Footer = () => {
 
   const contactInfo = [
     { Icon: Mail, text: 'contact@namadisoft.com' },
-    { Icon: Phone, text: '+91-8115097891' },
+    { Icon: Phone, text: '+91-8957551977' },
     { Icon: MapPin, text: 'Varanasi' },
   ];
 
@@ -32,7 +33,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <Code2 className="h-8 w-8 text-blue-500" />
+              <img src={logo} alt="NamadiSoft Logo" className="h-8 w-8 text-blue-500" />
               <span className="ml-2 text-xl font-bold text-white">NamadiSoft</span>
             </div>
             <p className="text-gray-400 mb-6">
